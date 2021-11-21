@@ -1,5 +1,7 @@
-# parses string of single digit numbers into np array based on desired num of cols and rows 
+# parses string of single digit numbers(coming from txt file) into np array based on desired num of cols and rows 
 #str_to_array(numStr, (row, column))
+# the function str_to_array can be imported by main py file to convert string in maps.txt into its original array form
+# this file is not to be used by itself, it needs to be imported by main python game script for the necessary conversion of map data 
 
 import numpy as np
 
