@@ -1,6 +1,6 @@
 """
 this platformer map editor keeps on-screen coords of different objects in an np array (i.e. a grid system)
-and saves that data in a database file (using sqlite). Every unique object has a different
+and saves that data in txt file. Every unique object has a different
 numerical value (with zero being empty tile).
 """
 
